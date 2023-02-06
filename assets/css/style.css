@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(to right, rgb(228, 227, 227),rgb(155, 155, 155));
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: clock;
+    src: url(..);
+}
+
+.container{
+    margin-top: 300px;
+    background-color: rgb(37, 37, 37);
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px rgb(49, 49, 49);
+}
+
+#clock{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 3em;
+color: rgb(226, 226, 226);
+font-size: 90px;
+font-family: 'Bold 700', sans-serif;
+font-weight: bold;
+}
+
